@@ -4,18 +4,48 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Document</title>
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+	.hhhh{
+		display: flex;
+	}
+	*{
+		text-align: center;
+	}
+</style>
 </head>
 <body>
 	<div id="warp">
 		<h2>杨鹏飞</h2>
-		<ul>
-			<li>首页</li>
-			<li><a href="message.html">个人信息</a></li>
-			<li>爱好</li>
-			<li>关于</li>
-			<li>棒槌</li>
-			<li><a href="https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=%E9%81%AE%E7%BD%A9%E5%B1%82%20%E8%8B%B1%E8%AF%AD&oq=%25E9%2581%25AE%25E7%25BD%25A9%25E5%25B1%2582&rsv_pq=f0292f750001bf74&rsv_t=b0d4blLDPknszYR6pJnzocy7ERn%2F4mWGX50tPkYY5BlP951a4sVvAUF6zIA&rqlang=cn&rsv_enter=1&inputT=4448&rsv_sug3=31&rsv_sug1=36&rsv_sug7=100&rsv_sug2=0&rsv_sug4=5087">茹梦丹的自己一个人  跑去百度啦!</a></li>
+		<ul class="nav nav-tabs">
+		  <li role="presentation" class="active"><a href="#">首页</a></li>
+		  <li role="presentation"><a href="#">爱好</a></li>
+		  <li role="presentation"><a href="#">个人信息</a></li>
 		</ul>
-	</div>
+	</div>	
+	<h1>我想回家 我想回家 我想回家 我想回家 我想回家</h1>
+	<h2>我想回家 我想回家 我想回家 我想回家 我想回家</h2>
+	<h3>我想回家 我想回家 我想回家 我想回家 我想回家</h3>
+	<h4>我想回家 我想回家 我想回家 我想回家 我想回家</h4>
+	<h5>我想回家 我想回家 我想回家 我想回家 我想回家</h5>
+	<h6>我想回家 我想回家 我想回家 我想回家 我想回家</h6>
+	<p>
+	  <button type="button" class="btn btn-primary btn-lg" id="hh">点击一下</button>
+	  <button type="button" class="btn btn-default btn-lg" id="yejklks">再点一下</button>
+	</p>
+	<script>
+		$(function(){
+			$("#hh").on("click", function(){
+				alert("上当啦！！")
+			});
+							
+			$("#yejklks").on("click", function(){
+				alert("哈哈！ 又上当啦！！")
+			});
+		})
+	</script>
 </body>
 </html>
