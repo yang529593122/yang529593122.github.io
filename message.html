@@ -5,7 +5,23 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Document</title>
 </head>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <body>
 	<a href="./index.html">首页</a>
+	<div>
+		<h1>想看是谁么？<span>请点击我</span></h1>
+		<div id="imgs" style="display: none;">
+			<img src="mylove/1.jpg" alt="" />
+			<img src="mylove/2.jpg" alt="" />
+			<img src="mylove/3.jpg" alt="" />
+		</div>
+	</div>
+	<script>
+		$(function(){
+			$("span").on("click",function(){
+				$("#imgs").css("display","block")
+			})
+		})
+	</script>
 </body>
 </html>
