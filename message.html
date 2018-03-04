@@ -5,10 +5,23 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
 	<title>Document</title>
 </head>
+<style>
+	img{
+		display: block;
+		width: 100px;
+		height: auto;
+	}
+	#myAudio{
+		display: none;
+	}
+</style>
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 <body>
 	<a href="./index.html">首页</a>
 	<div>
+		<audio class="music" id="myAudio" src="http://fs.w.kugou.com/201803041615/a50e72b28a3711d3c5afed095544cbf4/G078/M08/18/17/jg0DAFgi6G-AKqsqADDP_nSW5F4051.mp3" autoplay="autoplay" controls="controls" loop="loop">
+            <!-- <p class="myAudiohide">你的浏览器不支持<code>audio</code>标签.</p> -->
+        </audio>
 		<h1>想看是谁么？<span>请点击我</span></h1>
 		<div id="imgs" style="display: none;">
 			<img src="mylove/1.jpg" alt="" />
