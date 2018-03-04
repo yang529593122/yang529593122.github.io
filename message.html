@@ -23,13 +23,15 @@
 
 </style>
 <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <body>
 	<a href="./index.html">首页</a>
 	<div>
 		<audio class="music" id="myAudio" src="http://fs.w.kugou.com/201803041615/a50e72b28a3711d3c5afed095544cbf4/G078/M08/18/17/jg0DAFgi6G-AKqsqADDP_nSW5F4051.mp3" autoplay="autoplay" controls="controls" loop="loop">
             <!-- <p class="myAudiohide">你的浏览器不支持<code>audio</code>标签.</p> -->
         </audio>
-		<h1>想看是谁么？<span>请点击我</span></h1>
+		<button type="button" class="btn btn-primary btn-lg" id="hh">点击有惊喜</button>
 		<div id="imgs" style="display: none;">
 			<img src="mylove/1.jpg" alt="" />
 			<img src="mylove/2.jpg" alt="" />
@@ -38,7 +40,7 @@
 	</div>
 	<script>
 		$(function(){
-			$("span").on("click",function(){
+			$("button").on("click",function(){
 				$("#imgs").css("display","block")
 			})
 		})
